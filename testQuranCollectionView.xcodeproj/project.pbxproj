@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDA0FF821F714AB900645C21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0FF811F714AB900645C21 /* AppDelegate.swift */; };
+		EDA0FF871F714AB900645C21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA0FF851F714AB900645C21 /* Main.storyboard */; };
+		EDA0FF891F714AB900645C21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA0FF881F714AB900645C21 /* Assets.xcassets */; };
+		EDA0FF8C1F714AB900645C21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA0FF8A1F714AB900645C21 /* LaunchScreen.storyboard */; };
+		EDA0FF941F714CBE00645C21 /* QuranCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0FF931F714CBE00645C21 /* QuranCollectionViewController.swift */; };
+		EDA0FF961F714CCE00645C21 /* QuranCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0FF951F714CCE00645C21 /* QuranCollectionViewCell.swift */; };
+		EDA0FF981F7150C200645C21 /* width_1280 in Resources */ = {isa = PBXBuildFile; fileRef = EDA0FF971F7150C200645C21 /* width_1280 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDA0FF7E1F714AB900645C21 /* testQuranCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testQuranCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA0FF811F714AB900645C21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDA0FF861F714AB900645C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDA0FF881F714AB900645C21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDA0FF8B1F714AB900645C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDA0FF8D1F714AB900645C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA0FF931F714CBE00645C21 /* QuranCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuranCollectionViewController.swift; sourceTree = "<group>"; };
+		EDA0FF951F714CCE00645C21 /* QuranCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuranCollectionViewCell.swift; sourceTree = "<group>"; };
+		EDA0FF971F7150C200645C21 /* width_1280 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = width_1280; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDA0FF7B1F714AB900645C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDA0FF751F714AB900645C21 = {
+			isa = PBXGroup;
+			children = (
+				EDA0FF801F714AB900645C21 /* testQuranCollectionView */,
+				EDA0FF7F1F714AB900645C21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDA0FF7F1F714AB900645C21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDA0FF7E1F714AB900645C21 /* testQuranCollectionView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDA0FF801F714AB900645C21 /* testQuranCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				EDA0FF811F714AB900645C21 /* AppDelegate.swift */,
+				EDA0FF851F714AB900645C21 /* Main.storyboard */,
+				EDA0FF881F714AB900645C21 /* Assets.xcassets */,
+				EDA0FF971F7150C200645C21 /* width_1280 */,
+				EDA0FF8A1F714AB900645C21 /* LaunchScreen.storyboard */,
+				EDA0FF8D1F714AB900645C21 /* Info.plist */,
+				EDA0FF931F714CBE00645C21 /* QuranCollectionViewController.swift */,
+				EDA0FF951F714CCE00645C21 /* QuranCollectionViewCell.swift */,
+			);
+			path = testQuranCollectionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDA0FF7D1F714AB900645C21 /* testQuranCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA0FF901F714AB900645C21 /* Build configuration list for PBXNativeTarget "testQuranCollectionView" */;
+			buildPhases = (
+				EDA0FF7A1F714AB900645C21 /* Sources */,
+				EDA0FF7B1F714AB900645C21 /* Frameworks */,
+				EDA0FF7C1F714AB900645C21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testQuranCollectionView;
+			productName = testQuranCollectionView;
+			productReference = EDA0FF7E1F714AB900645C21 /* testQuranCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDA0FF761F714AB900645C21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SafeenAzad;
+				TargetAttributes = {
+					EDA0FF7D1F714AB900645C21 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EDA0FF791F714AB900645C21 /* Build configuration list for PBXProject "testQuranCollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDA0FF751F714AB900645C21;
+			productRefGroup = EDA0FF7F1F714AB900645C21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDA0FF7D1F714AB900645C21 /* testQuranCollectionView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDA0FF7C1F714AB900645C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA0FF981F7150C200645C21 /* width_1280 in Resources */,
+				EDA0FF8C1F714AB900645C21 /* LaunchScreen.storyboard in Resources */,
+				EDA0FF891F714AB900645C21 /* Assets.xcassets in Resources */,
+				EDA0FF871F714AB900645C21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDA0FF7A1F714AB900645C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA0FF941F714CBE00645C21 /* QuranCollectionViewController.swift in Sources */,
+				EDA0FF961F714CCE00645C21 /* QuranCollectionViewCell.swift in Sources */,
+				EDA0FF821F714AB900645C21 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDA0FF851F714AB900645C21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA0FF861F714AB900645C21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDA0FF8A1F714AB900645C21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA0FF8B1F714AB900645C21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDA0FF8E1F714AB900645C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDA0FF8F1F714AB900645C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDA0FF911F714AB900645C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testQuranCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SafeenAzad.testQuranCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EDA0FF921F714AB900645C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testQuranCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SafeenAzad.testQuranCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDA0FF791F714AB900645C21 /* Build configuration list for PBXProject "testQuranCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA0FF8E1F714AB900645C21 /* Debug */,
+				EDA0FF8F1F714AB900645C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA0FF901F714AB900645C21 /* Build configuration list for PBXNativeTarget "testQuranCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA0FF911F714AB900645C21 /* Debug */,
+				EDA0FF921F714AB900645C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDA0FF761F714AB900645C21 /* Project object */;
+}

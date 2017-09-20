@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="EJ2-5l-9eQ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Quran Collection View Controller-->
+        <scene sceneID="vsS-yy-AhZ">
+            <objects>
+                <collectionViewController id="eDo-9t-Y9s" customClass="QuranCollectionViewController" customModule="testQuranCollectionView" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="BLi-jk-V0c">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="9gm-Bk-u4R">
+                            <size key="itemSize" width="375" height="651"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="9GN-SH-DUz" customClass="QuranCollectionViewCell" customModule="testQuranCollectionView" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="-24" width="375" height="651"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="651"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FJ2-lJ-eFS">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="651"/>
+                                        </imageView>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="FJ2-lJ-eFS" firstAttribute="top" secondItem="9GN-SH-DUz" secondAttribute="top" id="6yO-hw-bWE"/>
+                                    <constraint firstItem="FJ2-lJ-eFS" firstAttribute="leading" secondItem="9GN-SH-DUz" secondAttribute="leading" id="Pyv-QH-iYV"/>
+                                    <constraint firstAttribute="bottom" secondItem="FJ2-lJ-eFS" secondAttribute="bottom" id="nJj-b3-A9Y"/>
+                                    <constraint firstAttribute="trailing" secondItem="FJ2-lJ-eFS" secondAttribute="trailing" id="olJ-Gc-rky"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="image" destination="FJ2-lJ-eFS" id="lsQ-OF-nzT"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="eDo-9t-Y9s" id="YAZ-ty-ehq"/>
+                            <outlet property="delegate" destination="eDo-9t-Y9s" id="F0d-ge-NOw"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="ebd-0S-mZq"/>
+                    <connections>
+                        <outlet property="flowLayout" destination="9gm-Bk-u4R" id="wlD-55-qoZ"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NfM-8O-nMw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1716" y="35.532233883058474"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Wum-li-Dix">
+            <objects>
+                <navigationController id="EJ2-5l-9eQ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fnz-WW-ErI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="eDo-9t-Y9s" kind="relationship" relationship="rootViewController" id="0VL-y4-WpT"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bf7-8Q-Mhh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="921" y="36"/>
+        </scene>
+    </scenes>
+</document>
