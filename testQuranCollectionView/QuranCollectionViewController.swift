@@ -32,8 +32,7 @@ class QuranCollectionViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //collectionView?.transform = CGAffineTransform(scaleX: -1.0, y: 1.0)
-        
+       
         navigationController?.hidesBarsOnTap = true
         
         collectionView?.semanticContentAttribute = UISemanticContentAttribute.forceRightToLeft
@@ -51,7 +50,7 @@ class QuranCollectionViewController: UICollectionViewController {
         
         
         // Flow Layout
-        let space:CGFloat = 3.0
+        let space:CGFloat = 0.0
         let dimension = view.frame.size.width
         let heightDimension = view.frame.size.height
         
@@ -84,7 +83,6 @@ class QuranCollectionViewController: UICollectionViewController {
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! QuranCollectionViewCell
         
-        //cell.transform = CGAffineTransform(scaleX: -1.0, y: 1.0)
         
         
         

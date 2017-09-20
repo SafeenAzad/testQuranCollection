@@ -13,49 +13,48 @@
         <scene sceneID="vsS-yy-AhZ">
             <objects>
                 <collectionViewController id="eDo-9t-Y9s" customClass="QuranCollectionViewController" customModule="testQuranCollectionView" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="BLi-jk-V0c">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" id="M7j-PA-LWM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <gestureRecognizers/>
-                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="9gm-Bk-u4R">
-                            <size key="itemSize" width="375" height="651"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="foi-Gc-o6u">
+                            <size key="itemSize" width="375" height="604"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="9GN-SH-DUz" customClass="QuranCollectionViewCell" customModule="testQuranCollectionView" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="-24" width="375" height="651"/>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="RRV-6h-HQ8" customClass="QuranCollectionViewCell" customModule="testQuranCollectionView" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="-0.5" width="375" height="604"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="651"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="604"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FJ2-lJ-eFS">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="651"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5ci-xa-EB2">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="604"/>
                                         </imageView>
                                     </subviews>
                                 </view>
                                 <constraints>
-                                    <constraint firstItem="FJ2-lJ-eFS" firstAttribute="top" secondItem="9GN-SH-DUz" secondAttribute="top" id="6yO-hw-bWE"/>
-                                    <constraint firstItem="FJ2-lJ-eFS" firstAttribute="leading" secondItem="9GN-SH-DUz" secondAttribute="leading" id="Pyv-QH-iYV"/>
-                                    <constraint firstAttribute="bottom" secondItem="FJ2-lJ-eFS" secondAttribute="bottom" id="nJj-b3-A9Y"/>
-                                    <constraint firstAttribute="trailing" secondItem="FJ2-lJ-eFS" secondAttribute="trailing" id="olJ-Gc-rky"/>
+                                    <constraint firstAttribute="bottom" secondItem="5ci-xa-EB2" secondAttribute="bottom" id="S7u-4B-64M"/>
+                                    <constraint firstAttribute="trailing" secondItem="5ci-xa-EB2" secondAttribute="trailing" id="nnw-fL-d9N"/>
+                                    <constraint firstItem="5ci-xa-EB2" firstAttribute="top" secondItem="RRV-6h-HQ8" secondAttribute="top" id="rNV-RJ-eoa"/>
+                                    <constraint firstItem="5ci-xa-EB2" firstAttribute="leading" secondItem="RRV-6h-HQ8" secondAttribute="leading" id="zal-fm-937"/>
                                 </constraints>
                                 <connections>
-                                    <outlet property="image" destination="FJ2-lJ-eFS" id="lsQ-OF-nzT"/>
+                                    <outlet property="image" destination="5ci-xa-EB2" id="45x-jE-ZfJ"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
-                            <outlet property="dataSource" destination="eDo-9t-Y9s" id="YAZ-ty-ehq"/>
-                            <outlet property="delegate" destination="eDo-9t-Y9s" id="F0d-ge-NOw"/>
+                            <outlet property="dataSource" destination="eDo-9t-Y9s" id="FEK-Oa-T7C"/>
+                            <outlet property="delegate" destination="eDo-9t-Y9s" id="ec0-Bv-XrK"/>
                         </connections>
                     </collectionView>
                     <navigationItem key="navigationItem" id="ebd-0S-mZq"/>
                     <connections>
-                        <outlet property="flowLayout" destination="9gm-Bk-u4R" id="wlD-55-qoZ"/>
+                        <outlet property="flowLayout" destination="foi-Gc-o6u" id="NBh-4j-xqS"/>
                     </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NfM-8O-nMw" userLabel="First Responder" sceneMemberID="firstResponder"/>
