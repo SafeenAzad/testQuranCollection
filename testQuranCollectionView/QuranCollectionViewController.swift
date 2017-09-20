@@ -36,7 +36,7 @@ class QuranCollectionViewController: UICollectionViewController {
         
         navigationController?.hidesBarsOnTap = true
         
-        
+        collectionView?.semanticContentAttribute = UISemanticContentAttribute.forceRightToLeft
         
         
         listOfImages.append(UIImage(named: "page001.png")!)
