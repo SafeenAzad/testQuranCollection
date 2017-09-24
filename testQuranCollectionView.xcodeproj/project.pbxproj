@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED1AB9D81F72976600DD1030 /* page001.png in Resources */ = {isa = PBXBuildFile; fileRef = ED1AB9D71F72976600DD1030 /* page001.png */; };
 		EDA0FF821F714AB900645C21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0FF811F714AB900645C21 /* AppDelegate.swift */; };
 		EDA0FF871F714AB900645C21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA0FF851F714AB900645C21 /* Main.storyboard */; };
 		EDA0FF891F714AB900645C21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA0FF881F714AB900645C21 /* Assets.xcassets */; };
@@ -15,10 +14,13 @@
 		EDA0FF941F714CBE00645C21 /* QuranCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0FF931F714CBE00645C21 /* QuranCollectionViewController.swift */; };
 		EDA0FF961F714CCE00645C21 /* QuranCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0FF951F714CCE00645C21 /* QuranCollectionViewCell.swift */; };
 		EDA0FF981F7150C200645C21 /* width_1280 in Resources */ = {isa = PBXBuildFile; fileRef = EDA0FF971F7150C200645C21 /* width_1280 */; };
+		EDEB8DD61F76948E009D2D4B /* QuranImageHighlightingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEB8DD51F76948D009D2D4B /* QuranImageHighlightingView.swift */; };
+		FE84D37EE2CEC0B2429B4008 /* Pods_testQuranCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3DF8D957FA4B6CA1D398716 /* Pods_testQuranCollectionView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ED1AB9D71F72976600DD1030 /* page001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = page001.png; path = width_1280/page001.png; sourceTree = "<group>"; };
+		318EA9EA3E07210B52A8FF97 /* Pods-testQuranCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testQuranCollectionView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testQuranCollectionView/Pods-testQuranCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
+		C3DF8D957FA4B6CA1D398716 /* Pods_testQuranCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testQuranCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA0FF7E1F714AB900645C21 /* testQuranCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testQuranCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA0FF811F714AB900645C21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDA0FF861F714AB900645C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -28,6 +30,8 @@
 		EDA0FF931F714CBE00645C21 /* QuranCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuranCollectionViewController.swift; sourceTree = "<group>"; };
 		EDA0FF951F714CCE00645C21 /* QuranCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuranCollectionViewCell.swift; sourceTree = "<group>"; };
 		EDA0FF971F7150C200645C21 /* width_1280 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = width_1280; sourceTree = "<group>"; };
+		EDEB8DD51F76948D009D2D4B /* QuranImageHighlightingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuranImageHighlightingView.swift; sourceTree = "<group>"; };
+		F3B153D757D1C3F927E42F37 /* Pods-testQuranCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testQuranCollectionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-testQuranCollectionView/Pods-testQuranCollectionView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE84D37EE2CEC0B2429B4008 /* Pods_testQuranCollectionView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05B5108C6556C1EA81ECB7E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3DF8D957FA4B6CA1D398716 /* Pods_testQuranCollectionView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD6550EB59AFF5262B9F1C98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				318EA9EA3E07210B52A8FF97 /* Pods-testQuranCollectionView.debug.xcconfig */,
+				F3B153D757D1C3F927E42F37 /* Pods-testQuranCollectionView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EDA0FF751F714AB900645C21 = {
 			isa = PBXGroup;
 			children = (
 				EDA0FF801F714AB900645C21 /* testQuranCollectionView */,
 				EDA0FF7F1F714AB900645C21 /* Products */,
+				DD6550EB59AFF5262B9F1C98 /* Pods */,
+				05B5108C6556C1EA81ECB7E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,17 +84,41 @@
 		EDA0FF801F714AB900645C21 /* testQuranCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				EDA0FF811F714AB900645C21 /* AppDelegate.swift */,
-				EDA0FF851F714AB900645C21 /* Main.storyboard */,
-				EDA0FF881F714AB900645C21 /* Assets.xcassets */,
-				ED1AB9D71F72976600DD1030 /* page001.png */,
-				EDA0FF971F7150C200645C21 /* width_1280 */,
-				EDA0FF8A1F714AB900645C21 /* LaunchScreen.storyboard */,
-				EDA0FF8D1F714AB900645C21 /* Info.plist */,
-				EDA0FF931F714CBE00645C21 /* QuranCollectionViewController.swift */,
-				EDA0FF951F714CCE00645C21 /* QuranCollectionViewCell.swift */,
+				EDEB8DD41F76414A009D2D4B /* UI */,
+				EDEB8DD31F764110009D2D4B /* Other */,
+				EDEB8DD21F764106009D2D4B /* Controllers */,
 			);
 			path = testQuranCollectionView;
+			sourceTree = "<group>";
+		};
+		EDEB8DD21F764106009D2D4B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDA0FF971F7150C200645C21 /* width_1280 */,
+				EDA0FF931F714CBE00645C21 /* QuranCollectionViewController.swift */,
+				EDA0FF951F714CCE00645C21 /* QuranCollectionViewCell.swift */,
+				EDEB8DD51F76948D009D2D4B /* QuranImageHighlightingView.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EDEB8DD31F764110009D2D4B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EDA0FF811F714AB900645C21 /* AppDelegate.swift */,
+				EDA0FF8D1F714AB900645C21 /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		EDEB8DD41F76414A009D2D4B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EDA0FF851F714AB900645C21 /* Main.storyboard */,
+				EDA0FF8A1F714AB900645C21 /* LaunchScreen.storyboard */,
+				EDA0FF881F714AB900645C21 /* Assets.xcassets */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDA0FF901F714AB900645C21 /* Build configuration list for PBXNativeTarget "testQuranCollectionView" */;
 			buildPhases = (
+				DC2BC964A90867B717B66DA1 /* [CP] Check Pods Manifest.lock */,
 				EDA0FF7A1F714AB900645C21 /* Sources */,
 				EDA0FF7B1F714AB900645C21 /* Frameworks */,
 				EDA0FF7C1F714AB900645C21 /* Resources */,
+				6B858C83EE4F43C9B20DB9B1 /* [CP] Embed Pods Frameworks */,
+				D3664E761ECD1981D4033C09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,7 +185,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDA0FF981F7150C200645C21 /* width_1280 in Resources */,
-				ED1AB9D81F72976600DD1030 /* page001.png in Resources */,
 				EDA0FF8C1F714AB900645C21 /* LaunchScreen.storyboard in Resources */,
 				EDA0FF891F714AB900645C21 /* Assets.xcassets in Resources */,
 				EDA0FF871F714AB900645C21 /* Main.storyboard in Resources */,
@@ -143,11 +193,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B858C83EE4F43C9B20DB9B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-testQuranCollectionView/Pods-testQuranCollectionView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testQuranCollectionView/Pods-testQuranCollectionView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3664E761ECD1981D4033C09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testQuranCollectionView/Pods-testQuranCollectionView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC2BC964A90867B717B66DA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testQuranCollectionView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EDA0FF7A1F714AB900645C21 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDEB8DD61F76948E009D2D4B /* QuranImageHighlightingView.swift in Sources */,
 				EDA0FF941F714CBE00645C21 /* QuranCollectionViewController.swift in Sources */,
 				EDA0FF961F714CCE00645C21 /* QuranCollectionViewCell.swift in Sources */,
 				EDA0FF821F714AB900645C21 /* AppDelegate.swift in Sources */,
@@ -273,6 +378,7 @@
 		};
 		EDA0FF911F714AB900645C21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 318EA9EA3E07210B52A8FF97 /* Pods-testQuranCollectionView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K87475A5JC;
@@ -287,6 +393,7 @@
 		};
 		EDA0FF921F714AB900645C21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3B153D757D1C3F927E42F37 /* Pods-testQuranCollectionView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K87475A5JC;
