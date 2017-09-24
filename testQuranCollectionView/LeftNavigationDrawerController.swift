@@ -35,7 +35,12 @@ class LeftNavigationDrawerController: UIViewController, UITableViewDelegate, UIT
         
         return Cell
         
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        let cell = storyboard?.instantiateViewController(withIdentifier: "QuranCollectionViewController") as! QuranCollectionViewController
+        
+        present(cell, animated: true, completion: nil)
         
     }
 
