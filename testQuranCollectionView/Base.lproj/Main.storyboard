@@ -12,7 +12,7 @@
         <!--Quran Collection View Controller-->
         <scene sceneID="vsS-yy-AhZ">
             <objects>
-                <collectionViewController storyboardIdentifier="QuranCollectionViewController" id="eDo-9t-Y9s" customClass="QuranCollectionViewController" customModule="testQuranCollectionView" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="eDo-9t-Y9s" customClass="QuranCollectionViewController" customModule="testQuranCollectionView" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" pagingEnabled="YES" dataMode="prototypes" id="M7j-PA-LWM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -142,7 +142,7 @@
         <!--Navigation Controller-->
         <scene sceneID="Wum-li-Dix">
             <objects>
-                <navigationController id="EJ2-5l-9eQ" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="QuranCollectionViewController" id="EJ2-5l-9eQ" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="fnz-WW-ErI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
