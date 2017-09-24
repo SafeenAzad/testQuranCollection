@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED99D7A31F77B30C003C9E01 /* AppNavigationDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99D7A21F77B30C003C9E01 /* AppNavigationDrawerController.swift */; };
+		ED99D7A51F77B5B2003C9E01 /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99D7A41F77B5B2003C9E01 /* RootVC.swift */; };
+		ED99D7A71F77BCC9003C9E01 /* LeftNavigationDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99D7A61F77BCC9003C9E01 /* LeftNavigationDrawerController.swift */; };
 		EDA0FF821F714AB900645C21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0FF811F714AB900645C21 /* AppDelegate.swift */; };
 		EDA0FF871F714AB900645C21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA0FF851F714AB900645C21 /* Main.storyboard */; };
 		EDA0FF891F714AB900645C21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA0FF881F714AB900645C21 /* Assets.xcassets */; };
@@ -14,13 +17,15 @@
 		EDA0FF941F714CBE00645C21 /* QuranCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0FF931F714CBE00645C21 /* QuranCollectionViewController.swift */; };
 		EDA0FF961F714CCE00645C21 /* QuranCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0FF951F714CCE00645C21 /* QuranCollectionViewCell.swift */; };
 		EDA0FF981F7150C200645C21 /* width_1280 in Resources */ = {isa = PBXBuildFile; fileRef = EDA0FF971F7150C200645C21 /* width_1280 */; };
-		EDEB8DD61F76948E009D2D4B /* QuranImageHighlightingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEB8DD51F76948D009D2D4B /* QuranImageHighlightingView.swift */; };
 		FE84D37EE2CEC0B2429B4008 /* Pods_testQuranCollectionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3DF8D957FA4B6CA1D398716 /* Pods_testQuranCollectionView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		318EA9EA3E07210B52A8FF97 /* Pods-testQuranCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testQuranCollectionView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testQuranCollectionView/Pods-testQuranCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
 		C3DF8D957FA4B6CA1D398716 /* Pods_testQuranCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testQuranCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED99D7A21F77B30C003C9E01 /* AppNavigationDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigationDrawerController.swift; sourceTree = "<group>"; };
+		ED99D7A41F77B5B2003C9E01 /* RootVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
+		ED99D7A61F77BCC9003C9E01 /* LeftNavigationDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftNavigationDrawerController.swift; sourceTree = "<group>"; };
 		EDA0FF7E1F714AB900645C21 /* testQuranCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testQuranCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA0FF811F714AB900645C21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDA0FF861F714AB900645C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -30,7 +35,6 @@
 		EDA0FF931F714CBE00645C21 /* QuranCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuranCollectionViewController.swift; sourceTree = "<group>"; };
 		EDA0FF951F714CCE00645C21 /* QuranCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuranCollectionViewCell.swift; sourceTree = "<group>"; };
 		EDA0FF971F7150C200645C21 /* width_1280 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = width_1280; sourceTree = "<group>"; };
-		EDEB8DD51F76948D009D2D4B /* QuranImageHighlightingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuranImageHighlightingView.swift; sourceTree = "<group>"; };
 		F3B153D757D1C3F927E42F37 /* Pods-testQuranCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testQuranCollectionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-testQuranCollectionView/Pods-testQuranCollectionView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,8 +100,10 @@
 			children = (
 				EDA0FF971F7150C200645C21 /* width_1280 */,
 				EDA0FF931F714CBE00645C21 /* QuranCollectionViewController.swift */,
+				ED99D7A41F77B5B2003C9E01 /* RootVC.swift */,
 				EDA0FF951F714CCE00645C21 /* QuranCollectionViewCell.swift */,
-				EDEB8DD51F76948D009D2D4B /* QuranImageHighlightingView.swift */,
+				ED99D7A21F77B30C003C9E01 /* AppNavigationDrawerController.swift */,
+				ED99D7A61F77BCC9003C9E01 /* LeftNavigationDrawerController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -252,9 +258,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDEB8DD61F76948E009D2D4B /* QuranImageHighlightingView.swift in Sources */,
+				ED99D7A51F77B5B2003C9E01 /* RootVC.swift in Sources */,
 				EDA0FF941F714CBE00645C21 /* QuranCollectionViewController.swift in Sources */,
 				EDA0FF961F714CCE00645C21 /* QuranCollectionViewCell.swift in Sources */,
+				ED99D7A71F77BCC9003C9E01 /* LeftNavigationDrawerController.swift in Sources */,
+				ED99D7A31F77B30C003C9E01 /* AppNavigationDrawerController.swift in Sources */,
 				EDA0FF821F714AB900645C21 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

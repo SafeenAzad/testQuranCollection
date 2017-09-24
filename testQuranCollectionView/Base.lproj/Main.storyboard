@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="EJ2-5l-9eQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XlX-4a-bQy">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -13,7 +13,7 @@
         <scene sceneID="vsS-yy-AhZ">
             <objects>
                 <collectionViewController id="eDo-9t-Y9s" customClass="QuranCollectionViewController" customModule="testQuranCollectionView" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" id="M7j-PA-LWM">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" pagingEnabled="YES" dataMode="prototypes" id="M7j-PA-LWM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -35,18 +35,11 @@
                                             <rect key="frame" x="1" y="0.0" width="374" height="604"/>
                                             <color key="backgroundColor" red="0.99195677042007446" green="0.99622899293899536" blue="0.99192315340042114" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </imageView>
-                                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8cg-LA-Us4">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="604"/>
-                                        </scrollView>
                                     </subviews>
                                 </view>
                                 <color key="backgroundColor" red="0.042783789336681366" green="0.059486247599124908" blue="0.018086578696966171" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="8cg-LA-Us4" secondAttribute="trailing" id="8FS-ix-j9c"/>
-                                    <constraint firstItem="8cg-LA-Us4" firstAttribute="top" secondItem="RRV-6h-HQ8" secondAttribute="top" id="DBo-X3-hoT"/>
-                                    <constraint firstItem="8cg-LA-Us4" firstAttribute="leading" secondItem="RRV-6h-HQ8" secondAttribute="leading" id="IUu-ge-if1"/>
                                     <constraint firstAttribute="bottom" secondItem="5ci-xa-EB2" secondAttribute="bottom" id="S7u-4B-64M"/>
-                                    <constraint firstAttribute="bottom" secondItem="8cg-LA-Us4" secondAttribute="bottom" id="jQb-Ey-cvH"/>
                                     <constraint firstAttribute="trailing" secondItem="5ci-xa-EB2" secondAttribute="trailing" id="nnw-fL-d9N"/>
                                     <constraint firstItem="5ci-xa-EB2" firstAttribute="top" secondItem="RRV-6h-HQ8" secondAttribute="top" id="rNV-RJ-eoa"/>
                                     <constraint firstItem="5ci-xa-EB2" firstAttribute="leading" secondItem="RRV-6h-HQ8" secondAttribute="leading" constant="1" id="zal-fm-937"/>
@@ -70,11 +63,86 @@
             </objects>
             <point key="canvasLocation" x="1716" y="35.532233883058474"/>
         </scene>
+        <!--Left Navigation Drawer Controller-->
+        <scene sceneID="7lf-uD-mE5">
+            <objects>
+                <viewController storyboardIdentifier="LeftNavigationDrawerController" id="eMs-YW-DbV" customClass="LeftNavigationDrawerController" customModule="testQuranCollectionView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KzO-4i-Hcs"/>
+                        <viewControllerLayoutGuide type="bottom" id="eE7-Ft-djI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fNC-nZ-uhR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="6fL-13-7Xe">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" red="0.2845270037651062" green="0.79513329267501831" blue="0.91295444965362549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" textLabel="6Pc-Zg-dbt" imageView="BMY-18-Yh5" style="IBUITableViewCellStyleDefault" id="byg-4A-TZ0">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="byg-4A-TZ0" id="HRA-mI-n1e">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6Pc-Zg-dbt">
+                                                    <rect key="frame" x="15" y="0.0" width="325" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="BMY-18-Yh5">
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6fL-13-7Xe" firstAttribute="leading" secondItem="fNC-nZ-uhR" secondAttribute="leading" id="3w3-II-loq"/>
+                            <constraint firstItem="eE7-Ft-djI" firstAttribute="top" secondItem="6fL-13-7Xe" secondAttribute="bottom" id="LFk-xq-ZLv"/>
+                            <constraint firstAttribute="trailing" secondItem="6fL-13-7Xe" secondAttribute="trailing" id="NzI-6B-GFo"/>
+                            <constraint firstItem="6fL-13-7Xe" firstAttribute="top" secondItem="KzO-4i-Hcs" secondAttribute="bottom" id="YFO-6O-li8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="table" destination="6fL-13-7Xe" id="dFk-uZ-1ud"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Es7-GM-Uya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1716" y="-658.02098950524737"/>
+        </scene>
+        <!--RootVC-->
+        <scene sceneID="OoV-cj-mwC">
+            <objects>
+                <viewController storyboardIdentifier="RootVC" id="XlX-4a-bQy" customClass="RootVC" customModule="testQuranCollectionView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xP5-kO-PaH"/>
+                        <viewControllerLayoutGuide type="bottom" id="8rR-d6-Vxf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="92C-Gh-fTl" customClass="Root">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C8C-aF-y7M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="921" y="-658"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Wum-li-Dix">
             <objects>
                 <navigationController id="EJ2-5l-9eQ" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fnz-WW-ErI">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="fnz-WW-ErI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
