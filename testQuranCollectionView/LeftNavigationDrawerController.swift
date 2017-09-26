@@ -10,7 +10,7 @@ import UIKit
 import Material
 
 class LeftNavigationDrawerController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-
+    
     @IBOutlet weak var table: UITableView!
     
     var categories = [String]()
@@ -21,13 +21,13 @@ class LeftNavigationDrawerController: UIViewController, UITableViewDelegate, UIT
         table.delegate = self
         table.dataSource = self
         
-        categories = ["Search", "Quran", "Maqamat", "Bookmarks"]
+        categories = ["Quran","Rules of Recitation", "Miracles in Quran", "Pray in Quran", "Maqamat", "Famous Readers", "General Info of Quran"]
     }
-     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return categories.count
     }
     
-     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let Cell = self.table.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as UITableViewCell
         
@@ -38,10 +38,12 @@ class LeftNavigationDrawerController: UIViewController, UITableViewDelegate, UIT
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let cell = storyboard?.instantiateViewController(withIdentifier: "QuranCollectionViewController") as! UINavigationController
-        
-        present(cell, animated: true, completion: nil)
-        
-    }
+        let cellQuran = storyboard?.instantiateViewController(withIdentifier: "QuranCollectionViewController") as! UINavigationController
 
+        let row = indexPath.row
+       
+        if categories[row] == categories[0]{
+        present(cellQuran, animated: true, completion: nil)
+        }
+    }
 }
