@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED99D7A31F77B30C003C9E01 /* AppNavigationDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99D7A21F77B30C003C9E01 /* AppNavigationDrawerController.swift */; };
+		ED1017DB1F7A766D0050F8B2 /* AppNavigationDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1017DA1F7A766D0050F8B2 /* AppNavigationDrawerController.swift */; };
 		ED99D7A51F77B5B2003C9E01 /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99D7A41F77B5B2003C9E01 /* RootVC.swift */; };
 		ED99D7A71F77BCC9003C9E01 /* LeftNavigationDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99D7A61F77BCC9003C9E01 /* LeftNavigationDrawerController.swift */; };
 		EDA0FF821F714AB900645C21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA0FF811F714AB900645C21 /* AppDelegate.swift */; };
@@ -23,7 +23,7 @@
 /* Begin PBXFileReference section */
 		318EA9EA3E07210B52A8FF97 /* Pods-testQuranCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testQuranCollectionView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testQuranCollectionView/Pods-testQuranCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
 		C3DF8D957FA4B6CA1D398716 /* Pods_testQuranCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testQuranCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED99D7A21F77B30C003C9E01 /* AppNavigationDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigationDrawerController.swift; sourceTree = "<group>"; };
+		ED1017DA1F7A766D0050F8B2 /* AppNavigationDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigationDrawerController.swift; sourceTree = "<group>"; };
 		ED99D7A41F77B5B2003C9E01 /* RootVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
 		ED99D7A61F77BCC9003C9E01 /* LeftNavigationDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftNavigationDrawerController.swift; sourceTree = "<group>"; };
 		EDA0FF7E1F714AB900645C21 /* testQuranCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testQuranCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,8 +101,8 @@
 				EDA0FF971F7150C200645C21 /* width_1280 */,
 				EDA0FF931F714CBE00645C21 /* QuranCollectionViewController.swift */,
 				ED99D7A41F77B5B2003C9E01 /* RootVC.swift */,
+				ED1017DA1F7A766D0050F8B2 /* AppNavigationDrawerController.swift */,
 				EDA0FF951F714CCE00645C21 /* QuranCollectionViewCell.swift */,
-				ED99D7A21F77B30C003C9E01 /* AppNavigationDrawerController.swift */,
 				ED99D7A61F77BCC9003C9E01 /* LeftNavigationDrawerController.swift */,
 			);
 			name = Controllers;
@@ -259,10 +259,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED99D7A51F77B5B2003C9E01 /* RootVC.swift in Sources */,
+				ED1017DB1F7A766D0050F8B2 /* AppNavigationDrawerController.swift in Sources */,
 				EDA0FF941F714CBE00645C21 /* QuranCollectionViewController.swift in Sources */,
 				EDA0FF961F714CCE00645C21 /* QuranCollectionViewCell.swift in Sources */,
 				ED99D7A71F77BCC9003C9E01 /* LeftNavigationDrawerController.swift in Sources */,
-				ED99D7A31F77B30C003C9E01 /* AppNavigationDrawerController.swift in Sources */,
 				EDA0FF821F714AB900645C21 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
